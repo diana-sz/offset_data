@@ -1,0 +1,282 @@
+#####################################################################################,,,,,,
+# Ribosomal Protein Mass Fractions in E. coli,,,,,,
+# =================================================,,,,,,
+# Collated measurements of the ribosomal protein proteome mass fraction in E. coli,,,,,,
+# and the corresponding steady-state growth rate. Growth rates are  provided in ,,,,,,
+"# inverse hours. The ""notes"" column provides details regarding where ",,,,,,
+# the data came from in each source entry. ,,,,,,
+#####################################################################################,,,,,,
+growth_rate_hr,mass_fraction,source,method,notes,medium,rp_ratio
+1.934,0.272,"Li et al., 2014",Ribosomal Profiling,Data taken from Belliveau and Chure et al. 2021,AA,NA
+1.569,0.198,"Li et al., 2014",Ribosomal Profiling,Data taken from Belliveau and Chure et al. 2021,AA,NA
+0.739,0.124,"Li et al., 2014",Ribosomal Profiling,Data taken from Belliveau and Chure et al. 2021,MIN,NA
+0.66,0.118,"Schmidt et al., 2016",Mass Spectrometry,Data taken from Belliveau and Chure et al. 2021,42°C glucose,NA
+0.3,0.065,"Schmidt et al., 2016",Mass Spectrometry,Data taken from Belliveau and Chure et al. 2021,Acetate,NA
+0.12,0.059,"Schmidt et al., 2016",Mass Spectrometry,Data taken from Belliveau and Chure et al. 2021,chemostat µ=0.12,NA
+0.2,0.063,"Schmidt et al., 2016",Mass Spectrometry,Data taken from Belliveau and Chure et al. 2021,chemostat µ=0.20,NA
+0.35,0.07,"Schmidt et al., 2016",Mass Spectrometry,Data taken from Belliveau and Chure et al. 2021,chemostat µ=0.35,NA
+0.5,0.094,"Schmidt et al., 2016",Mass Spectrometry,Data taken from Belliveau and Chure et al. 2021,chemostat µ=0.5,NA
+0.65,0.121,"Schmidt et al., 2016",Mass Spectrometry,Data taken from Belliveau and Chure et al. 2021,Fructose,NA
+0.42,0.088,"Schmidt et al., 2016",Mass Spectrometry,Data taken from Belliveau and Chure et al. 2021,Fumarate,NA
+0.26,0.073,"Schmidt et al., 2016",Mass Spectrometry,Data taken from Belliveau and Chure et al. 2021,Galactose ,NA
+0.46,0.098,"Schmidt et al., 2016",Mass Spectrometry,Data taken from Belliveau and Chure et al. 2021,Glucosamine,NA
+0.58,0.12,"Schmidt et al., 2016",Mass Spectrometry,Data taken from Belliveau and Chure et al. 2021,Glucose,NA
+0.47,0.103,"Schmidt et al., 2016",Mass Spectrometry,Data taken from Belliveau and Chure et al. 2021,Glycerol,NA
+1.27,0.148,"Schmidt et al., 2016",Mass Spectrometry,Data taken from Belliveau and Chure et al. 2021,Glycerol + AA,NA
+1.9,0.204,"Schmidt et al., 2016",Mass Spectrometry,Data taken from Belliveau and Chure et al. 2021,LB,NA
+0.47,0.09,"Schmidt et al., 2016",Mass Spectrometry,Data taken from Belliveau and Chure et al. 2021,Mannose,NA
+0.55,0.104,"Schmidt et al., 2016",Mass Spectrometry,Data taken from Belliveau and Chure et al. 2021,Xylose,NA
+0.63,0.105,"Schmidt et al., 2016",Mass Spectrometry,Data taken from Belliveau and Chure et al. 2021,pH6 glucose,NA
+0.4,0.081,"Schmidt et al., 2016",Mass Spectrometry,Data taken from Belliveau and Chure et al. 2021,Pyruvate,NA
+0.44,0.095,"Schmidt et al., 2016",Mass Spectrometry,Data taken from Belliveau and Chure et al. 2021,Succinate,NA
+0.55,0.113,"Schmidt et al., 2016",Mass Spectrometry,Data taken from Belliveau and Chure et al. 2021,Xylose,NA
+0,0.04,"Dai et al., 2016",Measurement of RNA to Protein ratio,Data taken from Table S3,MOPS,NA
+0.033,0.044,"Dai et al., 2016",Measurement of RNA to Protein ratio,Data taken from Table S3,MOPS,NA
+0.128,0.055,"Dai et al., 2016",Measurement of RNA to Protein ratio,Data taken from Table S3,MOPS,NA
+0.197,0.059,"Dai et al., 2016",Measurement of RNA to Protein ratio,Data taken from Table S3,MOPS,NA
+0.231,0.061,"Dai et al., 2016",Measurement of RNA to Protein ratio,Data taken from Table S3,MOPS,NA
+0.285,0.067,"Dai et al., 2016",Measurement of RNA to Protein ratio,Data taken from Table S3,MOPS,NA
+0.336,0.069,"Dai et al., 2016",Measurement of RNA to Protein ratio,Data taken from Table S3,MOPS,NA
+0.407,0.078,"Dai et al., 2016",Measurement of RNA to Protein ratio,Data taken from Table S3,MOPS,NA
+0.418,0.077,"Dai et al., 2016",Measurement of RNA to Protein ratio,Data taken from Table S3,MOPS,NA
+0.452,0.078,"Dai et al., 2016",Measurement of RNA to Protein ratio,Data taken from Table S3,MOPS,NA
+0.486,0.083,"Dai et al., 2016",Measurement of RNA to Protein ratio,Data taken from Table S3,MOPS,NA
+0.55,0.086,"Dai et al., 2016",Measurement of RNA to Protein ratio,Data taken from Table S3,MOPS,NA
+0.673,0.098,"Dai et al., 2016",Measurement of RNA to Protein ratio,Data taken from Table S3,MOPS,NA
+0.686,0.098,"Dai et al., 2016",Measurement of RNA to Protein ratio,Data taken from Table S3,MOPS,NA
+0.7,0.098,"Dai et al., 2016",Measurement of RNA to Protein ratio,Data taken from Table S3,MOPS,NA
+0.717,0.098,"Dai et al., 2016",Measurement of RNA to Protein ratio,Data taken from Table S3,MOPS,NA
+0.744,0.106,"Dai et al., 2016",Measurement of RNA to Protein ratio,Data taken from Table S3,MOPS,NA
+0.918,0.115,"Dai et al., 2016",Measurement of RNA to Protein ratio,Data taken from Table S3,MOPS,NA
+0.945,0.124,"Dai et al., 2016",Measurement of RNA to Protein ratio,Data taken from Table S3,MOPS,NA
+0.993,0.121,"Dai et al., 2016",Measurement of RNA to Protein ratio,Data taken from Table S3,MOPS,NA
+0.975,0.134,"Dai et al., 2016",Measurement of RNA to Protein ratio,Data taken from Table S3,MOPS,NA
+1.098,0.139,"Dai et al., 2016",Measurement of RNA to Protein ratio,Data taken from Table S3,MOPS,NA
+1.162,0.15,"Dai et al., 2016",Measurement of RNA to Protein ratio,Data taken from Table S3,MOPS,NA
+1.268,0.165,"Dai et al., 2016",Measurement of RNA to Protein ratio,Data taken from Table S3,MOPS,NA
+1.567,0.201,"Dai et al., 2016",Measurement of RNA to Protein ratio,Data taken from Table S3,MOPS,NA
+1.795,0.218,"Dai et al., 2016",Measurement of RNA to Protein ratio,Data taken from Table S3,MOPS,NA
+0.415888308335967,0.091,"Bremer & Dennis, 2008",,,MIN,0.169117647058824
+0.693147180559945,0.103,"Bremer & Dennis, 2008",,,MIN,0.205607476635514
+1.03972077083992,0.151,"Bremer & Dennis, 2008",,,MIN,0.257627118644068
+1.38629436111989,0.178,"Bremer & Dennis, 2008",,,AA,0.330749354005168
+1.73286795139986,0.215,"Bremer & Dennis, 2008",,,AA,0.417633410672854
+2.07944154168,0.2511737089,"Bremer & Dennis, 2008",,,LB,0.502347417840376
+0.38,0.086,"Forchhammer & Lindahl, 1971",Measurement of RNA to Protein ratio,Calculated from RNA/Protein ratio assuming 0.86 µg rRNA/1µg RNA and 0.53 µg ribosomal protein per 1µg rRNA,MIN,NA
+0.6,0.102,"Forchhammer & Lindahl, 1971",Measurement of RNA to Protein ratio,Calculated from RNA/Protein ratio assuming 0.86 µg rRNA/1µg RNA and 0.53 µg ribosomal protein per 1µg rRNA,MIN,NA
+1.04,0.134,"Forchhammer & Lindahl, 1971",Measurement of RNA to Protein ratio,Calculated from RNA/Protein ratio assuming 0.86 µg rRNA/1µg RNA and 0.53 µg ribosomal protein per 1µg rRNA,MIN,NA
+1.46,0.192,"Forchhammer & Lindahl, 1971",Measurement of RNA to Protein ratio,Calculated from RNA/Protein ratio assuming 0.86 µg rRNA/1µg RNA and 0.53 µg ribosomal protein per 1µg rRNA,AA,NA
+1.73,0.214,"Forchhammer & Lindahl, 1971",Measurement of RNA to Protein ratio,Calculated from RNA/Protein ratio assuming 0.86 µg rRNA/1µg RNA and 0.53 µg ribosomal protein per 1µg rRNA,Broth,NA
+0.4,0.081,"Scott et al., 2010",Measurement of RNA to Protein ratio,Calculated from RNA/Protein ratio assuming 0.86 µg rRNA/1µg RNA and 0.53 µg ribosomal protein per 1µg rRNA,MIN,NA
+0.57,0.105,"Scott et al., 2010",Measurement of RNA to Protein ratio,Calculated from RNA/Protein ratio assuming 0.86 µg rRNA/1µg RNA and 0.53 µg ribosomal protein per 1µg rRNA,MIN,NA
+0.71,0.101,"Scott et al., 2010",Measurement of RNA to Protein ratio,Calculated from RNA/Protein ratio assuming 0.86 µg rRNA/1µg RNA and 0.53 µg ribosomal protein per 1µg rRNA,AA,NA
+1,0.131,"Scott et al., 2010",Measurement of RNA to Protein ratio,Calculated from RNA/Protein ratio assuming 0.86 µg rRNA/1µg RNA and 0.53 µg ribosomal protein per 1µg rRNA,AA,NA
+1.31,0.189,"Scott et al., 2010",Measurement of RNA to Protein ratio,Calculated from RNA/Protein ratio assuming 0.86 µg rRNA/1µg RNA and 0.53 µg ribosomal protein per 1µg rRNA,RDM,NA
+1.58,0.212,"Scott et al., 2010",Measurement of RNA to Protein ratio,Calculated from RNA/Protein ratio assuming 0.86 µg rRNA/1µg RNA and 0.53 µg ribosomal protein per 1µg rRNA,RDM,NA
+0.409,0.077,"Brunschede et al., 1977",Measurement of RNA to Protein Ratio,"Data recorded from Table 1, using conversion factor described in text. Mass fraction computed assuming conversion factor of RNA/protein * 0.4558 = mass fraction.",MIN,NA
+0.409,0.086,"Brunschede et al., 1977",Measurement of RNA to Protein Ratio,"Data recorded from Table 1, using conversion factor described in text. Mass fraction computed assuming conversion factor of RNA/protein * 0.4558 = mass fraction.",MIN,NA
+0.492,0.095,"Brunschede et al., 1977",Measurement of RNA to Protein Ratio,"Data recorded from Table 1, using conversion factor described in text. Mass fraction computed assuming conversion factor of RNA/protein * 0.4558 = mass fraction.",MIN,NA
+0.492,0.1,"Brunschede et al., 1977",Measurement of RNA to Protein Ratio,"Data recorded from Table 1, using conversion factor described in text. Mass fraction computed assuming conversion factor of RNA/protein * 0.4558 = mass fraction.",MIN,NA
+0.513,0.067,"Brunschede et al., 1977",Measurement of RNA to Protein Ratio,"Data recorded from Table 1, using conversion factor described in text. Mass fraction computed assuming conversion factor of RNA/protein * 0.4558 = mass fraction.",MIN,NA
+0.478,0.077,"Brunschede et al., 1977",Measurement of RNA to Protein Ratio,"Data recorded from Table 1, using conversion factor described in text. Mass fraction computed assuming conversion factor of RNA/protein * 0.4558 = mass fraction.",MIN,NA
+0.478,0.081,"Brunschede et al., 1977",Measurement of RNA to Protein Ratio,"Data recorded from Table 1, using conversion factor described in text. Mass fraction computed assuming conversion factor of RNA/protein * 0.4558 = mass fraction.",MIN,NA
+0.679,0.048,"Brunschede et al., 1977",Measurement of RNA to Protein Ratio,"Data recorded from Table 1, using conversion factor described in text. Mass fraction computed assuming conversion factor of RNA/protein * 0.4558 = mass fraction.",MIN,NA
+0.866,0.123,"Brunschede et al., 1977",Measurement of RNA to Protein Ratio,"Data recorded from Table 1, using conversion factor described in text. Mass fraction computed assuming conversion factor of RNA/protein * 0.4558 = mass fraction.",MIN,NA
+0.866,0.135,"Brunschede et al., 1977",Measurement of RNA to Protein Ratio,"Data recorded from Table 1, using conversion factor described in text. Mass fraction computed assuming conversion factor of RNA/protein * 0.4558 = mass fraction.",MIN,NA
+0.866,0.137,"Brunschede et al., 1977",Measurement of RNA to Protein Ratio,"Data recorded from Table 1, using conversion factor described in text. Mass fraction computed assuming conversion factor of RNA/protein * 0.4558 = mass fraction.",MIN,NA
+0.943,0.149,"Brunschede et al., 1977",Measurement of RNA to Protein Ratio,"Data recorded from Table 1, using conversion factor described in text. Mass fraction computed assuming conversion factor of RNA/protein * 0.4558 = mass fraction.",MIN,NA
+0.943,0.163,"Brunschede et al., 1977",Measurement of RNA to Protein Ratio,"Data recorded from Table 1, using conversion factor described in text. Mass fraction computed assuming conversion factor of RNA/protein * 0.4558 = mass fraction.",MIN,NA
+1.428,0.196,"Brunschede et al., 1977",Measurement of RNA to Protein Ratio,"Data recorded from Table 1, using conversion factor described in text. Mass fraction computed assuming conversion factor of RNA/protein * 0.4558 = mass fraction.",AA,NA
+1.428,0.191,"Brunschede et al., 1977",Measurement of RNA to Protein Ratio,"Data recorded from Table 1, using conversion factor described in text. Mass fraction computed assuming conversion factor of RNA/protein * 0.4558 = mass fraction.",AA,NA
+0.04,0.044,"Wu et al., 2022",Measurement of RNA to Protein Ratio,Data digitized from Fig. 3 C and converted to Ribosomal mass fraction,MOPS,NA
+0.135,0.054,"Wu et al., 2022",Measurement of RNA to Protein Ratio,Data digitized from Fig. 3 C and converted to Ribosomal mass fraction,MOPS,NA
+0.204,0.059,"Wu et al., 2022",Measurement of RNA to Protein Ratio,Data digitized from Fig. 3 C and converted to Ribosomal mass fraction,MOPS,NA
+0.232,0.061,"Wu et al., 2022",Measurement of RNA to Protein Ratio,Data digitized from Fig. 3 C and converted to Ribosomal mass fraction,MOPS,NA
+0.293,0.067,"Wu et al., 2022",Measurement of RNA to Protein Ratio,Data digitized from Fig. 3 C and converted to Ribosomal mass fraction,MOPS,NA
+0.334,0.069,"Wu et al., 2022",Measurement of RNA to Protein Ratio,Data digitized from Fig. 3 C and converted to Ribosomal mass fraction,MOPS,NA
+0.341,0.069,"Wu et al., 2022",Measurement of RNA to Protein Ratio,Data digitized from Fig. 3 C and converted to Ribosomal mass fraction,MOPS,NA
+0.381,0.073,"Wu et al., 2022",Measurement of RNA to Protein Ratio,Data digitized from Fig. 3 C and converted to Ribosomal mass fraction,MOPS,NA
+0.412,0.079,"Wu et al., 2022",Measurement of RNA to Protein Ratio,Data digitized from Fig. 3 C and converted to Ribosomal mass fraction,MOPS,NA
+0.462,0.079,"Wu et al., 2022",Measurement of RNA to Protein Ratio,Data digitized from Fig. 3 C and converted to Ribosomal mass fraction,MOPS,NA
+0.502,0.084,"Wu et al., 2022",Measurement of RNA to Protein Ratio,Data digitized from Fig. 3 C and converted to Ribosomal mass fraction,MOPS,NA
+0.551,0.088,"Wu et al., 2022",Measurement of RNA to Protein Ratio,Data digitized from Fig. 3 C and converted to Ribosomal mass fraction,MOPS,NA
+0.691,0.1,"Wu et al., 2022",Measurement of RNA to Protein Ratio,Data digitized from Fig. 3 C and converted to Ribosomal mass fraction,MOPS,NA
+0.72,0.099,"Wu et al., 2022",Measurement of RNA to Protein Ratio,Data digitized from Fig. 3 C and converted to Ribosomal mass fraction,MOPS,NA
+0.701,0.104,"Wu et al., 2022",Measurement of RNA to Protein Ratio,Data digitized from Fig. 3 C and converted to Ribosomal mass fraction,MOPS,NA
+0.691,0.104,"Wu et al., 2022",Measurement of RNA to Protein Ratio,Data digitized from Fig. 3 C and converted to Ribosomal mass fraction,MOPS,NA
+0.75,0.107,"Wu et al., 2022",Measurement of RNA to Protein Ratio,Data digitized from Fig. 3 C and converted to Ribosomal mass fraction,MOPS,NA
+0.918,0.116,"Wu et al., 2022",Measurement of RNA to Protein Ratio,Data digitized from Fig. 3 C and converted to Ribosomal mass fraction,MOPS,NA
+0.949,0.125,"Wu et al., 2022",Measurement of RNA to Protein Ratio,Data digitized from Fig. 3 C and converted to Ribosomal mass fraction,MOPS,NA
+0.989,0.123,"Wu et al., 2022",Measurement of RNA to Protein Ratio,Data digitized from Fig. 3 C and converted to Ribosomal mass fraction,MOPS,NA
+0.98,0.135,"Wu et al., 2022",Measurement of RNA to Protein Ratio,Data digitized from Fig. 3 C and converted to Ribosomal mass fraction,MOPS,NA
+0.13,0.063,"Erickson et al., 2017",Measurement of RNA to Protein Ratio using their conversion factor,Taken from table in FigS1 (panel H),MIN,NA
+0.19,0.072,"Erickson et al., 2017",Measurement of RNA to Protein Ratio using their conversion factor,Taken from table in FigS1 (panel H),MIN,NA
+0.61,0.097,"Erickson et al., 2017",Measurement of RNA to Protein Ratio using their conversion factor,Taken from table in FigS1 (panel H),MIN,NA
+0.91,0.139,"Erickson et al., 2017",Measurement of RNA to Protein Ratio using their conversion factor,Taken from table in FigS1 (panel H),MIN,NA
+0.91,0.124,"Erickson et al., 2017",Measurement of RNA to Protein Ratio using their conversion factor,Taken from table in FigS1 (panel H),MIN,NA
+0.62,0.096,"Erickson et al., 2017",Measurement of RNA to Protein Ratio using their conversion factor,Taken from table in FigS1 (panel H),MIN,NA
+0.79,0.133,"Erickson et al., 2017",Measurement of RNA to Protein Ratio using their conversion factor,Taken from table in FigS1 (panel H),AA,NA
+1.04,0.142,"Erickson et al., 2017",Measurement of RNA to Protein Ratio using their conversion factor,Taken from table in FigS1 (panel H),AA,NA
+0.93,0.138,"Erickson et al., 2017",Measurement of RNA to Protein Ratio using their conversion factor,Taken from table in FigS1 (panel H),AA,NA
+0.71,0.113,"Erickson et al., 2017",Measurement of RNA to Protein Ratio using their conversion factor,Taken from table in FigS1 (panel H),MIN,NA
+0.45,0.089,"Erickson et al., 2017",Measurement of RNA to Protein Ratio using their conversion factor,Taken from table in FigS1 (panel H),MIN,NA
+0.98,0.14,"Erickson et al., 2017",Measurement of RNA to Protein Ratio using their conversion factor,Taken from table in FigS1 (panel H),MIN,NA
+0.06,0.06,"Erickson et al., 2017",Measurement of RNA to Protein Ratio using their conversion factor,Taken from table in FigS1 (panel I). This are different strains than panel H,MIN,NA
+0.16,0.065,"Erickson et al., 2017",Measurement of RNA to Protein Ratio using their conversion factor,Taken from table in FigS1 (panel I). This are different strains than panel H,MIN,NA
+0.25,0.073,"Erickson et al., 2017",Measurement of RNA to Protein Ratio using their conversion factor,Taken from table in FigS1 (panel I). This are different strains than panel H,MIN,NA
+0.4,0.084,"Erickson et al., 2017",Measurement of RNA to Protein Ratio using their conversion factor,Taken from table in FigS1 (panel I). This are different strains than panel H,MIN,NA
+0.29,0.074,"Erickson et al., 2017",Measurement of RNA to Protein Ratio using their conversion factor,Taken from table in FigS1 (panel I). This are different strains than panel H,MIN,NA
+0.43,0.086,"Erickson et al., 2017",Measurement of RNA to Protein Ratio using their conversion factor,Taken from table in FigS1 (panel I). This are different strains than panel H,MIN,NA
+0.55,0.103,"Erickson et al., 2017",Measurement of RNA to Protein Ratio using their conversion factor,Taken from table in FigS1 (panel I). This are different strains than panel H,MIN,NA
+0.31,0.1,"Erickson et al., 2017",Measurement of RNA to Protein Ratio using their conversion factor,Taken from table in FigS1 (panel I). This are different strains than panel H,MIN,NA
+0.79,0.129,"Erickson et al., 2017",Measurement of RNA to Protein Ratio using their conversion factor,Taken from table in FigS1 (panel I). This are different strains than panel H,MIN,NA
+0.18,0.059,"Erickson et al., 2017",Measurement of RNA to Protein Ratio using their conversion factor,Taken from table in FigS1 (panel I). This are different strains than panel H,MIN,NA
+0.32,0.078,"Erickson et al., 2017",Measurement of RNA to Protein Ratio using their conversion factor,Taken from table in FigS1 (panel I). This are different strains than panel H,MIN,NA
+0.38,0.086,"Erickson et al., 2017",Measurement of RNA to Protein Ratio using their conversion factor,Taken from table in FigS1 (panel I). This are different strains than panel H,MIN,NA
+0.57,0.105,"Erickson et al., 2017",Measurement of RNA to Protein Ratio using their conversion factor,Taken from table in FigS1 (panel I). This are different strains than panel H,MIN,NA
+0.091,0.0726436860017846,"Li et al., 2018","Measurement of RNA to Protein Ratio taken from supplemental table 2, converted to mass fraction using a conversion factor",,WT_C_01,NA
+0.3,0.0789628267356524,"Li et al., 2018","Measurement of RNA to Protein Ratio taken from supplemental table 2, converted to mass fraction using a conversion factor",,WT_C_03,NA
+0.47,0.100846724966711,"Li et al., 2018","Measurement of RNA to Protein Ratio taken from supplemental table 2, converted to mass fraction using a conversion factor",,WT_C_05,NA
+0.62,0.113372083792723,"Li et al., 2018","Measurement of RNA to Protein Ratio taken from supplemental table 2, converted to mass fraction using a conversion factor",,WT_C_07,NA
+0.091,0.071924986072423,"Li et al., 2018","Measurement of RNA to Protein Ratio taken from supplemental table 2, converted to mass fraction using a conversion factor",,WT_N_01,NA
+0.3,0.0876673446465888,"Li et al., 2018","Measurement of RNA to Protein Ratio taken from supplemental table 2, converted to mass fraction using a conversion factor",,WT_N_03,NA
+0.44,0.099259010591144,"Li et al., 2018","Measurement of RNA to Protein Ratio taken from supplemental table 2, converted to mass fraction using a conversion factor",,WT_N_05,NA
+0.63,0.117855191815857,"Li et al., 2018","Measurement of RNA to Protein Ratio taken from supplemental table 2, converted to mass fraction using a conversion factor",,WT_N_07,NA
+1.67,0.253610941282292,"Li et al., 2018","Measurement of RNA to Protein Ratio taken from supplemental table 2, converted to mass fraction using a conversion factor",,WT_Rich_17,NA
+1.1,0.168504155947159,"Li et al., 2018","Measurement of RNA to Protein Ratio taken from supplemental table 2, converted to mass fraction using a conversion factor",,WT_G6P_11,NA
+0.93,0.157110064078685,"Li et al., 2018","Measurement of RNA to Protein Ratio taken from supplemental table 2, converted to mass fraction using a conversion factor",,WT_Glu_09,NA
+0.6,0.120988643656674,"Li et al., 2018","Measurement of RNA to Protein Ratio taken from supplemental table 2, converted to mass fraction using a conversion factor",,WT_Man_06,NA
+0.56,0.119322884130064,"Li et al., 2018","Measurement of RNA to Protein Ratio taken from supplemental table 2, converted to mass fraction using a conversion factor",,WT_Gly_06,NA
+0.44,0.085160400210475,"Li et al., 2018","Measurement of RNA to Protein Ratio taken from supplemental table 2, converted to mass fraction using a conversion factor",,WT_Ace_04,NA
+0.2306,0.0781770333490095,"Li et al., 2018","Measurement of RNA to Protein Ratio taken from supplemental table 2, converted to mass fraction using a conversion factor",,WT_Arg_02,NA
+0.0671641791044776,0.0595885321100915,"Mori et al., 2017",Measurement of RNA to Protein Ratio converted to mass fraction using a conversion factor,Data digitized from Fig S2A.,MIN/AA,0.130733944954128
+0.194029850746269,0.058543119266055,"Mori et al., 2017",Measurement of RNA to Protein Ratio converted to mass fraction using a conversion factor,Data digitized from Fig S2A.,MIN/AA,0.128440366972477
+0.126865671641791,0.062724770642202,"Mori et al., 2017",Measurement of RNA to Protein Ratio converted to mass fraction using a conversion factor,Data digitized from Fig S2A.,MIN/AA,0.137614678899083
+0.149253731343283,0.0648155963302751,"Mori et al., 2017",Measurement of RNA to Protein Ratio converted to mass fraction using a conversion factor,Data digitized from Fig S2A.,MIN/AA,0.142201834862385
+0.194029850746269,0.0721334862385321,"Mori et al., 2017",Measurement of RNA to Protein Ratio converted to mass fraction using a conversion factor,Data digitized from Fig S2A.,MIN/AA,0.158256880733945
+0.253731343283582,0.0742243119266056,"Mori et al., 2017",Measurement of RNA to Protein Ratio converted to mass fraction using a conversion factor,Data digitized from Fig S2A.,MIN/AA,0.162844036697248
+0.291044776119403,0.0731788990825687,"Mori et al., 2017",Measurement of RNA to Protein Ratio converted to mass fraction using a conversion factor,Data digitized from Fig S2A.,MIN/AA,0.160550458715596
+0.328358208955224,0.0784059633027522,"Mori et al., 2017",Measurement of RNA to Protein Ratio converted to mass fraction using a conversion factor,Data digitized from Fig S2A.,MIN/AA,0.172018348623853
+0.365671641791045,0.0867692660550458,"Mori et al., 2017",Measurement of RNA to Protein Ratio converted to mass fraction using a conversion factor,Data digitized from Fig S2A.,MIN/AA,0.190366972477064
+0.395522388059701,0.0836330275229357,"Mori et al., 2017",Measurement of RNA to Protein Ratio converted to mass fraction using a conversion factor,Data digitized from Fig S2A.,MIN/AA,0.18348623853211
+0.440298507462687,0.0867692660550458,"Mori et al., 2017",Measurement of RNA to Protein Ratio converted to mass fraction using a conversion factor,Data digitized from Fig S2A.,MIN/AA,0.190366972477064
+0.455223880597015,0.0878146788990828,"Mori et al., 2017",Measurement of RNA to Protein Ratio converted to mass fraction using a conversion factor,Data digitized from Fig S2A.,MIN/AA,0.192660550458716
+0.552238805970149,0.102450458715596,"Mori et al., 2017",Measurement of RNA to Protein Ratio converted to mass fraction using a conversion factor,Data digitized from Fig S2A.,MIN/AA,0.224770642201834
+0.574626865671642,0.103495871559633,"Mori et al., 2017",Measurement of RNA to Protein Ratio converted to mass fraction using a conversion factor,Data digitized from Fig S2A.,MIN/AA,0.227064220183486
+0.619402985074627,0.0993142201834864,"Mori et al., 2017",Measurement of RNA to Protein Ratio converted to mass fraction using a conversion factor,Data digitized from Fig S2A.,MIN/AA,0.217889908256881
+0.619402985074627,0.0961779816513763,"Mori et al., 2017",Measurement of RNA to Protein Ratio converted to mass fraction using a conversion factor,Data digitized from Fig S2A.,MIN/AA,0.211009174311927
+0.716417910447761,0.112904587155963,"Mori et al., 2017",Measurement of RNA to Protein Ratio converted to mass fraction using a conversion factor,Data digitized from Fig S2A.,MIN/AA,0.247706422018348
+0.798507462686567,0.128585779816514,"Mori et al., 2017",Measurement of RNA to Protein Ratio converted to mass fraction using a conversion factor,Data digitized from Fig S2A.,MIN/AA,0.28211009174312
+0.791044776119403,0.131722018348624,"Mori et al., 2017",Measurement of RNA to Protein Ratio converted to mass fraction using a conversion factor,Data digitized from Fig S2A.,MIN/AA,0.288990825688074
+0.902985074626866,0.137994495412844,"Mori et al., 2017",Measurement of RNA to Protein Ratio converted to mass fraction using a conversion factor,Data digitized from Fig S2A.,MIN/AA,0.302752293577982
+0.925373134328358,0.137994495412844,"Mori et al., 2017",Measurement of RNA to Protein Ratio converted to mass fraction using a conversion factor,Data digitized from Fig S2A.,MIN/AA,0.302752293577982
+0.91044776119403,0.124404128440367,"Mori et al., 2017",Measurement of RNA to Protein Ratio converted to mass fraction using a conversion factor,Data digitized from Fig S2A.,MIN/AA,0.272935779816514
+0.985074626865672,0.137994495412844,"Mori et al., 2017",Measurement of RNA to Protein Ratio converted to mass fraction using a conversion factor,Data digitized from Fig S2A.,MIN/AA,0.302752293577982
+1.04477611940298,0.141130733944954,"Mori et al., 2017",Measurement of RNA to Protein Ratio converted to mass fraction using a conversion factor,Data digitized from Fig S2A.,MIN/AA,0.309633027522936
+2.45227606461087,,"Mori et al., 2017",,digitized additionally,LB,0.660902255639098
+0.44,0.077486,"You et al., 2013",Measurement of RNA to Protein Ratio using their conversion factor,Data taken from Table S10,MIN,0.17
+0.41,0.077486,"You et al., 2013",Measurement of RNA to Protein Ratio using their conversion factor,Data taken from Table S10,MIN,0.17
+0.62,0.104834,"You et al., 2013",Measurement of RNA to Protein Ratio using their conversion factor,Data taken from Table S10,MIN,0.23
+0.64,0.104834,"You et al., 2013",Measurement of RNA to Protein Ratio using their conversion factor,Data taken from Table S10,MIN,0.23
+0.87,0.127624,"You et al., 2013",Measurement of RNA to Protein Ratio using their conversion factor,Data taken from Table S10,MIN,0.28
+1,0.1381298,"You et al., 2013",Measurement of RNA to Protein Ratio using their conversion factor,Data taken from Table S10,MIN,0.31
+1.84,0.211967781155015,"Basan et al., 2015",Measurement of RNA to Protein Ratio using their conversion factor,Data taken from Table S4,MIN,0.465045592705167
+1.27,0.165353312302839,"Basan et al., 2015",Measurement of RNA to Protein Ratio using their conversion factor,Data taken from Table S4,MIN,0.362776025236593
+0.98,0.134002462462462,"Basan et al., 2015",Measurement of RNA to Protein Ratio using their conversion factor,Data taken from Table S4,MIN,0.293993993993994
+0.7,0.107080901408451,"Basan et al., 2015",Measurement of RNA to Protein Ratio using their conversion factor,Data taken from Table S4,MIN,0.234929577464789
+0.45,0.0777753968253968,"Basan et al., 2015",Measurement of RNA to Protein Ratio using their conversion factor,Data taken from Table S4,MIN,0.170634920634921
+0.42,0.0770546803069054,"Basan et al., 2015",Measurement of RNA to Protein Ratio using their conversion factor,Data taken from Table S4,MIN,0.169053708439898
+0.419763360996177,0.07785785595955,"Zhu & Dai, 2019",Measurement of RNA to Protein ratio,Data digitized from Fig 2D,OTHER,0.170815831416301
+0.460810099947396,0.0806663686826258,"Zhu & Dai, 2019",Measurement of RNA to Protein ratio,Data digitized from Fig 2D,OTHER,0.176977553055344
+0.690806880903217,0.102401566025737,"Zhu & Dai, 2019",Measurement of RNA to Protein ratio,Data digitized from Fig 2D,OTHER,0.224663374343434
+0.974286903200986,0.133236516366092,"Zhu & Dai, 2019",Measurement of RNA to Protein ratio,Data digitized from Fig 2D,OTHER,0.292313550605731
+1.36435654447384,0.165505783601718,"Zhu & Dai, 2019",Measurement of RNA to Protein ratio,Data digitized from Fig 2D,OTHER,0.363110538836591
+1.8285898231096,0.215264555654133,"Zhu & Dai, 2019",Measurement of RNA to Protein ratio,Data digitized from Fig 2D,LB,0.472278533686119
+2.0023,0.196499938,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.9522,0.220101262,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.75155,0.12657566,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.0344,0.130741672,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.56926,0.116620988,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.75501,0.087891914,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.8144,0.19959482,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.8154,0.215329036,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.4587,0.163422532,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.2686,0.139570518,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.88083,0.121876362,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.65611,0.097582222,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.59741,0.0900205,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+2.1133,0.169749036,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.8779,0.157004868,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.4313,0.130012392,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.2541,0.125609364,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.0632,0.115372096,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.75406,0.094596732,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.78904,0.104045466,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.8088,0.21452227,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.5663,0.172319748,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.1517,0.135240418,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.1026,0.115162428,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.62786,0.11590994,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.7342,0.176276092,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.1273,0.122195422,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.83602,0.133244014,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.70943,0.09574079,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.39136,0.070092924,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.7854,0.20287658,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.0818,0.146890666,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.83287,0.13117924,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.73618,0.073215154,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.69244,0.099428212,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.31271,0.067472074,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.7662,0.20606718,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.0637,0.13029043,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.80028,0.13022206,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.82842,0.13101971,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.70978,0.068556878,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.66856,0.099268682,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.4499,0.075421226,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.6541,0.158445196,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.4993,0.158832626,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.72045,0.124556466,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.0654,0.110545174,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.82866,0.048232756,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.75346,0.07668835,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.41312,0.062567666,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.7479,0.227895442,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.4982,0.191394978,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.3375,0.171704418,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.0379,0.16821299,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.79254,0.124629394,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.75655,0.125089752,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.34007,0.089122574,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.1988,0.125180912,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.1731,0.121680368,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.2352,0.126110744,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.7573,0.190323848,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.7095,0.210401838,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.9438,0.195916514,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.7703,0.20495047,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.7077,0.17258867,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.3168,0.147592598,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.4475,0.170337018,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.3448,0.201240258,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.503,0.171617816,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.5053,0.183441268,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.2583,0.19002302,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.3125,0.144278932,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.1146,0.133353406,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.1547,0.1424375,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.0276,0.127095272,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.058,0.110814096,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.1048,0.147191494,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.0261,0.118357586,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.70007,0.176777472,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.75945,0.087837218,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.64728,0.095663304,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.64552,0.08564482,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.6694,0.087960284,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.35841,0.068538646,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.2071,0.116210768,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+0.64317,0.068538646,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.7284,0.19227923,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA
+1.1884,0.119392252,"Si et al., 2017",Measurement of RNA to Protein ratio,"Data calculated from supplemental data file, considering only NCM3722 and MG1655 nutrient limitation and 0 antibiotics",OTHER,NA

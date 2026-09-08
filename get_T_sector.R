@@ -1,6 +1,5 @@
-#### Script to extract proteomics data for the R sector
+#### Script to extract proteomics data for the T sector
 #### Author: Diana Szeliova
-#### Date: 1.9.2026
 
 library(dplyr)
 
@@ -9,12 +8,7 @@ data_dir <- "~/offset/proteomics_data"
 # -----------------------------------------------------------------------
 # Gene annotation (Wu 2023, Supplementary Table 3)
 # -----------------------------------------------------------------------
-affiliated_trans <- c(
-  "arfA", "arfB", "efp", "frr", "fusA", "infA", "infB", "infC", "lepA", "prfA",
-  "prfB", "prfC", "tsf", "tufA", "tufB"
-)
-
-eftu <- c("tufA", "tufB") # subset of affiliated_trans
+eftu <- c("tufA", "tufB")
 
 trna_syn <- c(
   "alaS", "argS", "asnS", "aspS", "cysS", "glnS", "gltX", "glyQ", "glyS", "hisS",
@@ -22,20 +16,10 @@ trna_syn <- c(
   "trpS", "tyrS", "valS"
 )
 
-ribosome <- c("rplA","rplB","rplC","rplD","rplE","rplF","rplI","rplJ","rplK","rplL",
-              "rplM","rplN","rplO","rplP","rplQ","rplR","rplS","rplT","rplU","rplV",
-              "rplW","rplX","rplY","rpmA","rpmB","rpmC","rpmD","rpmE","rpmF","rpmG",
-              "rpmH","rpmI","rpmJ","rpsA","rpsB","rpsC","rpsD","rpsE","rpsF","rpsG",
-              "rpsH","rpsI","rpsJ","rpsK","rpsL","rpsM","rpsN","rpsO","rpsP","rpsQ",
-              "rpsR","rpsS","rpsT","rpsU","sra")
 
 # -----------------------------------------------------------------------
-# Helper: sum tRNA synthetase, EF-Tu, affiliated translational protein, and
-# ribosomal protein abundances per sample, and combine with growth rates
-# into one data frame. Two proteome-sector definitions are computed:
-#   sum_all_klumpp - tRNA synthetases + EF-Tu (= tufA + tufB) + tsf
-#   sum_all_wu     - tRNA synthetases + all affiliated translational proteins
-# sum_rb is the ribosomal protein sum, returned separately.
+# Helper: sum tRNA synthetases and EF-Tu mass fractions, and combine with growth rates
+# into one data frame.
 # -----------------------------------------------------------------------
 summarise_dataset <- function(proteomics, mu, sample_ids, dataset_name) {
   missing_ids <- setdiff(sample_ids, colnames(proteomics))
@@ -48,9 +32,7 @@ summarise_dataset <- function(proteomics, mu, sample_ids, dataset_name) {
   
   gene_sets <- list(
     sum_trnas = trna_syn,
-    sum_eftu = eftu,
-    sum_affil = affiliated_trans,
-    sum_rb = ribosome
+    sum_eftu = eftu
   )
   for (set_name in names(gene_sets)) {
     n_found <- sum(rownames(proteomics) %in% gene_sets[[set_name]])
@@ -64,21 +46,16 @@ summarise_dataset <- function(proteomics, mu, sample_ids, dataset_name) {
   
   trna_rows <- proteomics[rownames(proteomics) %in% trna_syn, sample_ids, drop = FALSE]
   eftu_rows <- proteomics[rownames(proteomics) %in% eftu, sample_ids, drop = FALSE]
-  affil_rows <- proteomics[rownames(proteomics) %in% affiliated_trans, sample_ids, drop = FALSE]
-  rb_rows <- proteomics[rownames(proteomics) %in% ribosome, sample_ids, drop = FALSE]
-  
+
   data.frame(
     mu = mu,
     id = sample_ids,
     dataset = dataset_name,
     sum_trnas = colSums(trna_rows, na.rm = TRUE),
-    sum_eftu = colSums(eftu_rows, na.rm = TRUE),
-    sum_affil = colSums(affil_rows, na.rm = TRUE),
-    sum_rb = colSums(rb_rows, na.rm = TRUE)
+    sum_eftu = colSums(eftu_rows, na.rm = TRUE)
   ) %>%
     mutate(
-      sum_all_klumpp = sum_trnas + sum_eftu,
-      sum_all_wu = sum_trnas + sum_affil
+      phi_T = sum_trnas + sum_eftu,
     )
 }
 
@@ -171,13 +148,11 @@ plot_by_dataset <- function(y, main) {
   legend("topleft", legend = names(dataset_colors), col = dataset_colors, pch = 16)
 }
 
-plot_by_dataset(growth_rates$sum_all_klumpp, "tRNAsyn + EF-Tu")
-plot_by_dataset(growth_rates$sum_all_wu, "Wu definition (tRNAsyn + affil. trans.)")
 plot_by_dataset(growth_rates$sum_trnas, "tRNA synthetases")
-plot_by_dataset(growth_rates$sum_eftu, "EF-Tu + tsf")
-plot_by_dataset(growth_rates$sum_rb, "Ribosomal proteins")
+plot_by_dataset(growth_rates$sum_eftu, "EF-Tu")
+plot_by_dataset(growth_rates$phi_T, "T sector")
 
 # -----------------------------------------------------------------------
 # Save results
 # -----------------------------------------------------------------------
-write.csv(growth_rates, file.path(data_dir, "R_data.csv"), row.names = FALSE)
+write.csv(growth_rates, "~/offset/phi_T_data.csv", row.names = FALSE)

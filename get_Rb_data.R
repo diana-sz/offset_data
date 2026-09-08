@@ -95,9 +95,11 @@ all_data <- rbind(chure, wu, mori1, mori2, zhu)
 # exlude Si
 all_data <- all_data[all_data$source != "Si et al., 2017", ]
 
+
+write.csv(all_data, "~/offset/phi_Rb_data.csv")
+
 # define colors and shapes
 colors <- brewer.pal(length(unique(all_data$name)), "Dark2")
-#colors <- c("#009E73",  "#56B4E9", "#E69F00")
 color_map <- setNames(colors, unique(all_data$name))
 all_data$color <- color_map[all_data$name]
 
@@ -106,10 +108,6 @@ shape_map <- setNames(
   unique(all_data$source)
 )
 all_data$shape <- shape_map[all_data$source]
-
-write.csv(all_data, "~/offset/phi_Rb_data.csv")
-
-
 
 plot(phi_Rb~mu, data=all_data,
      col = all_data$color,
@@ -123,10 +121,6 @@ plot(phi_Rb~mu, data=all_data,
 axis(1, padj = -0.25)
 axis(2, las = 2, at = seq(0,0.25,0.05), labels = c("0%", "5%", "10%", "15%", "20%", "25%"), hadj = 0.75)
 box()
-fit <- lm(phi_Rb ~ mu, data = all_data)
-
-
-abline(fit, col = "grey40", lty = 2, lwd = 2)
 
 mtext(bquote("Growth rate" ~ lambda ~ "[" * h^-1 * "]"), 
       side = 1, outer = FALSE, line = 2.5, cex = 1.1)

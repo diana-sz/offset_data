@@ -8,7 +8,7 @@ setwd(directory)
 
 # reads Rb protein data ########################################################
 
-Rbdata   <- read.table("../Rb_protein_data.csv", sep = ',', header = TRUE)
+Rbdata   <- read.table("../Rb_protein_data.csv", sep = ',')
 
 lambda_Rb  <- as.numeric(Rbdata[-1,1])
 
@@ -23,7 +23,7 @@ summary(reg_Rb)
 
 # reads T protein data #########################################################
 
-phitdata <- as.matrix(read.table("../T_protein_data.csv", sep = ',', header = TRUE)) 
+phitdata <- as.matrix(read.table("../T_protein_data.csv", sep = ',')) 
 
 lambda <- as.numeric(phitdata[-1,1])
 

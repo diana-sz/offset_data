@@ -30,11 +30,11 @@ chure <- read.csv(file.path(data_dir, "Chure_2023.csv"), skip=8)
 wu_proteomics_ss <- wu_proteomics[, steady_state_ids]
 ribosomes_wu <- get_sector_fraction_gene_list(ribo_genes, wu_proteomics_ss)
 
-wu <- data.frame(mu = wu_metadata$Growth.rate..1.h., phi_Rb = ribosomes_wu,
+wu <- data.frame(lambda = wu_metadata$Growth.rate..1.h., phi_Rb = ribosomes_wu,
                 name = "Wu et al. 2023", source = "Wu et al. 2023")
 
 #### Zhu data ##################################################################
-zhu <- data.frame(mu=c(1.88,1.26,0.97,0.69,0.41), 
+zhu <- data.frame(lambda=c(1.88,1.26,0.97,0.69,0.41), 
                   phi_Rb=c(0.484,0.364,0.294,0.227,0.172)*0.5, # convert RP ratio to phi_Rb
                   name = "Zhu et al. 2025", source = "Zhu et al. 2025")
 
@@ -43,25 +43,25 @@ zhu <- data.frame(mu=c(1.88,1.26,0.97,0.69,0.41),
 mori_proteomics1_ss <- mori_proteomics1[, sample_ids1]
 ribosomes_mori1 <- get_sector_fraction_gene_list(ribo_genes, mori_proteomics1_ss)
 
-mori1 <- data.frame(mu = c_lim_samples$Growth.rate..1.h., phi_Rb = ribosomes_mori1,
+mori1 <- data.frame(lambda = c_lim_samples$Growth.rate..1.h., phi_Rb = ribosomes_mori1,
                     name = "Mori et al. 2021", source = "Mori et al. 2021")
 
 #### Mori data - minimal media #################################################
 mori_proteomics2_ss <- mori_proteomics2[, sample_ids2]
 ribosomes_mori2 <- get_sector_fraction_gene_list(ribo_genes, mori_proteomics2_ss)
 
-mori2 <- data.frame(mu = mori_mu2, phi_Rb = ribosomes_mori2,
+mori2 <- data.frame(lambda = mori_lambda2, phi_Rb = ribosomes_mori2,
                     name = "Mori et al. 2021", source = "Mori et al. 2021")
 
 
 chure$name <- "Chure & Cremer 2023"
-colnames(chure)[colnames(chure) == "growth_rate_hr"] <- "mu"
+colnames(chure)[colnames(chure) == "growth_rate_hr"] <- "lambda"
 colnames(chure)[colnames(chure) == "mass_fraction"]  <- "phi_Rb"
 
 
 # combine all data
 ## Keep only required columns before binding
-keep_cols <- c("mu", "phi_Rb", "name", "source")
+keep_cols <- c("lambda", "phi_Rb", "name", "source")
 
 chure  <- chure[,  keep_cols]
 wu     <- wu[,     keep_cols]
@@ -71,10 +71,12 @@ mori2  <- mori2[,  keep_cols]
 all_data <- rbind(chure, wu, mori1, mori2, zhu) 
 
 # exlude Si
+write.csv(all_data, "~/offset/Rb_protein_data_Si.csv", row.names = FALSE)
+
 all_data <- all_data[all_data$source != "Si et al., 2017", ]
 
 
-write.csv(all_data, "~/offset/phi_Rb_data.csv")
+write.csv(all_data, "~/offset/Rb_protein_data.csv", row.names = FALSE)
 
 
 #### Plotting ##################################################################
@@ -90,7 +92,7 @@ shape_map <- setNames(
 all_data$shape <- shape_map[all_data$source]
 
 
-plot(phi_Rb~mu, data=all_data,
+plot(phi_Rb~lambda, data=all_data,
      col = all_data$color,
      pch = all_data$shape,
      xlab = NA, ylab = NA, axes = FALSE,
@@ -118,4 +120,4 @@ legend("bottomright", legend = leg2,
        pch = shape_map[leg2], cex = 0.5, ncol = 1,
        title = "Sources in Chure & Cremer 2023")
 
-print(lm(phi_Rb~mu, data=all_data))
+

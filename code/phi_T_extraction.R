@@ -21,7 +21,7 @@ trna_syn <- c(
 # Helper: sum tRNA synthetases and EF-Tu mass fractions, and combine with growth rates
 # into one data frame.
 # -----------------------------------------------------------------------
-summarise_dataset <- function(proteomics, mu, sample_ids, dataset_name) {
+summarise_dataset <- function(proteomics, lambda, sample_ids, dataset_name) {
   missing_ids <- setdiff(sample_ids, colnames(proteomics))
   if (length(missing_ids) > 0) {
     stop(
@@ -48,7 +48,7 @@ summarise_dataset <- function(proteomics, mu, sample_ids, dataset_name) {
   eftu_rows <- proteomics[rownames(proteomics) %in% eftu, sample_ids, drop = FALSE]
 
   data.frame(
-    mu = mu,
+    lambda = lambda,
     id = sample_ids,
     dataset = dataset_name,
     sum_trnas = colSums(trna_rows, na.rm = TRUE),
@@ -71,7 +71,7 @@ growth_rates_mori1$id <- c_lim_samples$Sample.ID
 # Mori 2021 - minimal media samples (EV2 / EV8)
 # -----------------------------------------------------------------------
 growth_rates_mori2 <- summarise_dataset(
-  mori_proteomics2, mori_mu2, sample_ids2, "mori2021"
+  mori_proteomics2, mori_lambda2, sample_ids2, "mori2021"
 )
 growth_rates_mori2$id <- min_media_samples$Short.Description
 
@@ -98,7 +98,7 @@ dataset_colors <- c(mori2021 = "#7570b3", wu2023 = "#d95f02")
 point_colors <- dataset_colors[growth_rates$dataset]
 
 plot_by_dataset <- function(y, main) {
-  plot(growth_rates$mu, y, col = point_colors, pch = 16,
+  plot(growth_rates$lambda, y, col = point_colors, pch = 16,
        ylim = c(0, max(y, na.rm = TRUE) * 1.05),
        xlab = "growth rate (1/h)", ylab = "mass fraction", main = main)
   legend("topleft", legend = names(dataset_colors), col = dataset_colors, pch = 16)
@@ -111,4 +111,4 @@ plot_by_dataset(growth_rates$phi_T, "T sector")
 # -----------------------------------------------------------------------
 # Save results
 # -----------------------------------------------------------------------
-write.csv(growth_rates, "~/offset/phi_T_data.csv", row.names = FALSE)
+write.csv(growth_rates, "~/offset/T_protein_data.csv", row.names = FALSE)

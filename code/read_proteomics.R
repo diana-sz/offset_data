@@ -61,7 +61,7 @@ target_rows <- c(
   "Carbon 85", "Carbon 50", "Carbon 54", "Carbon 49"
 )
 min_media_samples <- mori_metadata2[mori_metadata2$Short.Description %in% target_rows, ]
-mori_mu2 <- log(2) / (min_media_samples$Doubling.time..min. / 60)
+mori_lambda2 <- log(2) / (min_media_samples$Doubling.time..min. / 60)
 sample_ids2 <- gsub("-", ".", min_media_samples$Sample.ID)
 
 mori_proteomics2 <- read.csv(file.path(data_dir, "EV8-AbsoluteMassFractions-1.csv"))
